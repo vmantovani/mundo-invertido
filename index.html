@@ -8,10 +8,12 @@
   <title>Mundo Invertido</title>
 </head>
 
-<body>
-  <header>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<body class="light-theme" aria-label="O site está utilizando tema light" role="body">
+  <header aria-label="Cabeçalho da página">
     <audio id="music" autoplay>
-      <source src="assets/musics/normal-world.mpeg" />
+      <source src="assets/musics/normal-world.mpeg" aria-details="Áudio do site" />
     </audio>
 
     <div class="header-content">
@@ -26,6 +28,8 @@
   </header>
 
   <main>
+    <div id="bottom-characters" class="world-characters"></div>
+
     <section id="section-inverted-world" class="container">
       <div class="section-texts">
         <h1>O Mundo Invertido</h1>
